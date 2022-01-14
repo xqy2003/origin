@@ -1,0 +1,24 @@
+public repositories 公开仓库
+private repositories 私有仓库
+your profile 个人简介
+edit profile  修改个人简介
+overview	个人主页概览
+
+git 的命令操作及术语
+
+① : git status  查看仓库的状态
+② : git init 初始化git仓库
+③ : master分支 , 主分支
+④ : Untracked fikes 仓库中没有被追踪的文件
+⑤ : git add + 文件 , 注意是加到了[ 临时缓冲区 ]
+⑥ : git commit -m "text commit" , -m表示提交信息 , 提交的信息写在双引号""内 ; 提交到Git仓库
+⑦ : noting to commit , working tree clean 全部内容提交完毕
+⑧ ：git log 打印git仓库提交日志
+⑨ ：git branch , 查看git仓库中分支情况, "*"代表所在分支,"*master"代表仓库的主分支
+       git branch a创建一个名为a的分支
+⑩ ：git checkout a 切换到a分支 ; 创建分支的同时切换到新分支 , 命令为git checkout -b
+       举例 ：git checkout -b b
+11 : git merge 合并分支 ; 首先要确定在checkout在要合并的分支上 ; 例如 : git checkout master ; git merge a
+12 : git branch -d & git branch -D ; 在11合并了a分支后 , git branch -d a ;但没合并也一定要删除使用后者
+13 : git tag , 为当前分支添加标签；例如: git tag v1.0到a分支 ; git tag 查询历史打标签的记录；
+14 : 
