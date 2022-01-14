@@ -21,4 +21,5 @@ git 的命令操作及术语
 11 : git merge 合并分支 ; 首先要确定在checkout在要合并的分支上 ; 例如 : git checkout master ; git merge a
 12 : git branch -d & git branch -D ; 在11合并了a分支后 , git branch -d a ;但没合并也一定要删除使用后者
 13 : git tag , 为当前分支添加标签；例如: git tag v1.0到a分支 ; git tag 查询历史打标签的记录；
-14 : 
+
+Git is free software
